@@ -137,6 +137,7 @@ selectors to it.
 Provides mixins for common link behaviours:
 
 * `link-hover`: hide underline on normal links, show it on hover and focus.
+* `link-no-hover`: hide underline on normal links, even on hover and focus.
 * `link-colors($link, $visited, $hover, $active)`: set all colors at once.
 * `link-colors-lighten($color)`: use `link-colors` to use a single color for
   all links, but lighten the hover, focus and active styles slightly using the

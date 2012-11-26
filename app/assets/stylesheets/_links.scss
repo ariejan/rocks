@@ -6,6 +6,14 @@
     }
 }
 
+// Hide the underlines from a link.
+@mixin link-no-hover {
+    text-decoration: none;
+    &:hover, &:focus {
+        text-decoration: none;
+    }
+}
+
 // Shortcut to assign colors to all link states.
 @mixin link-colors($link, $visited, $hover, $active) {
     color: $link;
